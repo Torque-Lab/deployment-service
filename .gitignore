@@ -7,7 +7,7 @@ node_modules/
 # Ignore build output
 dist/
 build/
-
+demo.js
 # Ignore system files
 .DS_Store
 Thumbs.db

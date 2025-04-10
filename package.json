@@ -11,8 +11,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "aws-sdk": "^2.1692.0",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "redis": "^4.7.0",
+    "simple-git": "^3.27.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
