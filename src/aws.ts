@@ -12,7 +12,7 @@ export const uploadFile = async (fileName: string, localFilePath: string) => {
     .upload({
       Body: fileContent,
       Bucket: "vercel",
-      key: fileName,
+      Key: fileName,
     })
     .promise();
   console.log(response);
